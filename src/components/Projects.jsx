@@ -1,6 +1,6 @@
 import React from 'react'
 import SMS from '../assets/SMS.jpeg';
-import Todo from '../assets/TODO.jpeg';
+import Todo from '../assets/Todo.jpeg';
 import PlantL from '../assets/PlantL.jpeg';
 
 function Projects() {
