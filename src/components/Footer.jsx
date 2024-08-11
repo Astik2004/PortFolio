@@ -9,10 +9,11 @@ function Footer() {
             <div className='max-w-screen-2xl container mx-auto px-4 md:px-20'>
                 <div className='flex flex-col items-center justify-center'>
                     <div className='flex space-x-4'>
-                        <FaLinkedinIn size={24}/>
-                        <FaGithub size={24}/>
-                        <FaInstagram size={24}/>
-                        <FaFacebook size={24}/>
+
+                        <a href="https://www.linkedin.com/in/astik-yadav-8b5995225/" target="_blank"><FaLinkedinIn size={24}/></a>
+                        <a href="https://github.com/Astik2004" target="_blank"><FaGithub size={24}/></a>
+                        <a href="https://www.instagram.com/astikydv/" target="_blank"><FaInstagram size={24}/></a>
+                        <a href="https://www.facebook.com/profile.php?id=100091766149396" target="_blank"><FaFacebook size={24}/></a>
                     </div>
                     <div className="mt-8 border-gray-700 border-t pt-8 flex flex-col items-center">
                             <p className='text-sm'>

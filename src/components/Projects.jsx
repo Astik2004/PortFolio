@@ -9,7 +9,7 @@ function Projects() {
             id:1,
             logo:Todo,
             name:"Todo-App",
-            link:"https://github.com/Astik2004/fullstack-todo-app-fronted",
+            link:"https://github.com/Astik2004/Todo-App",
             desc:"A task management app using React and Node.js, enabling users to add, update, and delete tasks."
         },
         {
