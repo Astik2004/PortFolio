@@ -35,7 +35,7 @@ function Projects() {
                 <h1 className='text-5xl font-bold mb-5 text-gray-500'>What I've Built</h1>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-4 my-5'>
                     {cardItem.map((item)=>(
-                        <div className='md:w-[350px] md:h-[400px] border-black border-3px rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300' key={item.id}>
+                        <div className='md:w-[350px] md:h-[450px] border-black border-3px rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300' key={item.id}>
                             <img src={item.logo} className='w-full h-200px m:w-[400px] m:h-[200px] p-1 rounded-sm border-2px' alt=''/>
                             <div>
                                 <div className='px-2 font-bold text-xl mb-2'>{item.name}</div>
