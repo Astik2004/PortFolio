@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <>
-        <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 py-20'>
+        <div name="About" className='max-w-screen-2xl container mx-auto px-4 md:px-20 py-20'>
             <h1 className='font-bold text-3xl mb-5'>ABOUT</h1>
             <h2 className='font-bold text-5xl mb-5 text-gray-500'>Who I Am</h2>
             <p className='text-justify'>

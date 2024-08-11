@@ -29,7 +29,7 @@ function Projects() {
     ]
   return (
     <>
-        <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 mt-20'>
+        <div name="Projects" className='max-w-screen-2xl container mx-auto px-4 md:px-20 mt-20'>
             <div>
                 <h1 className='text-3xl font-bold mb-5'>PROJECTS</h1>
                 <h1 className='text-5xl font-bold mb-5 text-gray-500'>What I've Built</h1>
