@@ -64,7 +64,7 @@ function Navbar() {
                 </div>
             </div>
             {menu && (
-                <div className={`bg-white ${darkMode ? 'bg-gray-800' : 'bg-white'} transition-all duration-300`}>
+                <div className={`${darkMode ? 'bg-gray-800' : 'bg-white'} transition-all duration-300`}>
                     <ul className="md:hidden flex flex-col h-screen items-center justify-center space-y-3 text-xl">
                         {navList.map((nav) => (
                             <li
