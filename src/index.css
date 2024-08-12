@@ -3,6 +3,32 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+
+
+/* Default light theme */
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --nav-background: #ffffff;
+    --nav-text-color: #000000;
+}
+
+/* Dark theme */
+[data-theme='dark'] {
+    --background-color: #1e1e1e;
+    --text-color: #f0f0f0;
+    --nav-background: #2e2e2e;
+    --nav-text-color: #f0f0f0;
+}
+
+body {
     font-family: 'poppins',sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+
+}
+
+.navbar {
+    background-color: var(--nav-background);
+    color: var(--nav-text-color);
 }
