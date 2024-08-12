@@ -4,9 +4,9 @@ function About() {
   return (
     <>
       <div name="About" className='max-w-screen-2xl container mx-auto px-4 md:px-8 lg:px-16 py-10 md:py-20'>
-        <h1 className='font-bold text-2xl md:text-3xl lg:text-4xl mb-4 md:mb-6 lg:mb-8'>ABOUT</h1>
-        <h2 className='font-bold text-3xl md:text-5xl lg:text-6xl mb-4 md:mb-6 lg:mb-8 text-gray-500'>Who I Am</h2>
-        <p className='text-base md:text-lg lg:text-xl text-justify leading-relaxed'>
+        <h1 className='font-bold text-2xl md:text-3xl lg:text-3xl mb-4 md:mb-6 lg:mb-8'>ABOUT</h1>
+        <h2 className='font-bold text-3xl md:text-5xl lg:text-5xl mb-4 md:mb-6 lg:mb-8 text-gray-500'>Who I Am</h2>
+        <p className='text-base md:text-xl lg:text-xl text-justify leading-relaxed'>
           I am a recent <b>B.Tech</b> graduate in <b>Computer Science & Engineering</b> from <b>United College of Engineering Research</b>, where I achieved an <b>8.19 CGPA</b>.
           My academic journey has equipped me with a strong foundation in programming,
           software development, and a particular focus on full-stack web development

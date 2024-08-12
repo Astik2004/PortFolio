@@ -32,8 +32,8 @@ function Skills() {
     <>
       <div name="Skills" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16">
         <div>
-          <h1 className="text-3xl font-bold mb-5">SKILLS</h1>
-          <h2 className="text-5xl font-bold mb-5 text-gray-500">What I've Learnt</h2>
+          <h1 className="text-2xl md:text-3xl font-bold mb-5">SKILLS</h1>
+          <h2 className="text-3xl md:text-5xl font-bold mb-5 text-gray-500">What I've Learnt</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8 lg:gap-10 my-8">
             {skillItems.map((item) => (
               <div
