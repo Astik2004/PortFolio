@@ -61,7 +61,8 @@ function Projects() {
     ];
 
     return (
-        <div name="Projects" className='max-w-screen-2xl container mx-auto px-4 md:px-20 mt-20'>
+        <>
+        <div name="Projects" className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-16'>
             <div>
                 <h1 className='text-2xl md:text-3xl font-bold mb-5'>PROJECTS</h1>
                 <h2 className='text-3xl md:text-5xl font-bold mb-5 text-gray-500'>What I've Built</h2>
@@ -72,6 +73,8 @@ function Projects() {
                 </div>
             </div>
         </div>
+        <hr className='mt-4px'/>
+        </>
     );
 }
 
