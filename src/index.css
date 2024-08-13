@@ -21,6 +21,7 @@
     --nav-text-color: #f0f0f0;
 }
 
+
 body {
     font-family: 'poppins',sans-serif;
     background-color: var(--background-color);
@@ -31,15 +32,5 @@ body {
 .navbar {
     background-color: var(--nav-background);
     color: var(--nav-text-color);
-}
-
-body[data-theme='dark'] {
-    background-color: #1a202c; /* Dark background */
-    color: #e2e8f0; /* Light text */
-}
-
-body[data-theme='light'] {
-    background-color: #ffffff; /* Light background */
-    color: #1a202c; /* Dark text */
 }
 

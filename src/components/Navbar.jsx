@@ -27,6 +27,7 @@ function Navbar() {
     ];
 
     return (
+        <>
         <div className={`navbar max-w-screen-2xl container mx-auto px-4 h-16 md:px-20 shadow-md fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${darkMode ? 'bg-gray-800 text-white' : 'bg-white text-gray-800'}`}>
             <div className="flex justify-between h-16 items-center">
                 <div className="flex space-x-2">
@@ -87,6 +88,8 @@ function Navbar() {
                 </div>
             )}
         </div>
+        <hr className='text-white' />
+        </>
     );
 }
 
