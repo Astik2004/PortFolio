@@ -17,7 +17,7 @@ function Footer() {
                     </div>
                     <div className="mt-8 border-gray-700 border-t pt-8 flex flex-col items-center">
                             <p className='text-sm'>
-                                &copy;2024 Your Company.All Right Reserved.
+                                &copy;2024 Made With Love🧡.All Right Reserved.
                             </p>
                     </div>
                 </div>
