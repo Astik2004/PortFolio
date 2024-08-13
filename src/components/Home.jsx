@@ -1,5 +1,5 @@
 import React from 'react'
-import Pic from '../assets/pic.jpg';
+import Pic from '../assets/pic.png';
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
