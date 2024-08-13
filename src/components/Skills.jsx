@@ -41,7 +41,7 @@ function Skills() {
                 key={item.id}
               >
                 <img src={item.logo} className="w-[70px] h-[70px] md:w-[100px] md:h-[100px] rounded-full object-cover mb-4" alt={item.name} />
-                <div className="text-center font-semibold text-sm md:text-lg text-black">{item.name}</div>
+                <div className="text-center font-semibold text-sm md:text-lg text-gray-500">{item.name}</div>
               </div>
             ))}
           </div>

@@ -27,17 +27,17 @@ function Navbar() {
     ];
 
     return (
-        <div className="navbar max-w-screen-2xl container mx-auto px-4 h-16 md:px-20 shadow-md fixed top-0 left-0 right-0 z-50">
+        <div className={`navbar max-w-screen-2xl container mx-auto px-4 h-16 md:px-20 shadow-md fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${darkMode ? 'bg-gray-800 text-white' : 'bg-white text-gray-800'}`}>
             <div className="flex justify-between h-16 items-center">
                 <div className="flex space-x-2">
-                    <img src={pic} className="h-12 w-12 rounded-full" alt="" />
+                    <img src={pic} className="h-12 w-12 rounded-full" alt="Profile" loading="lazy" />
                     <h1 className="font-semibold text-xl cursor-pointer">
                         <Link to="Home">Asti<span className="text-green-500 text-2xl">k</span></Link>
                         <p className="text-sm">Web Developer</p>
                     </h1>
                 </div>
                 <div className="flex items-center space-x-4">
-                    <button onClick={handleThemeToggle} className="p-2 rounded-full">
+                    <button onClick={handleThemeToggle} aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"} className="p-2 rounded-full">
                         {darkMode ? <FaSun size={24} /> : <FaMoon size={24} />}
                     </button>
                     <ul className="hidden md:flex space-x-8">
@@ -64,7 +64,7 @@ function Navbar() {
                 </div>
             </div>
             {menu && (
-                <div className={`${darkMode ? 'bg-gray-800' : 'bg-white'} transition-all duration-300`}>
+                <div className={`${darkMode ? 'bg-gray-800 text-white' : 'bg-white text-gray-800'} transition-all duration-300`}>
                     <ul className="md:hidden flex flex-col h-screen items-center justify-center space-y-3 text-xl">
                         {navList.map((nav) => (
                             <li

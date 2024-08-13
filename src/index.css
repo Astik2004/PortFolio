@@ -32,3 +32,14 @@ body {
     background-color: var(--nav-background);
     color: var(--nav-text-color);
 }
+
+body[data-theme='dark'] {
+    background-color: #1a202c; /* Dark background */
+    color: #e2e8f0; /* Light text */
+}
+
+body[data-theme='light'] {
+    background-color: #ffffff; /* Light background */
+    color: #1a202c; /* Dark text */
+}
+
